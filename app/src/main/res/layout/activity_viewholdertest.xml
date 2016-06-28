@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ListView
+        android:id="@+id/list_viewholdertest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="4dp"
+        android:listSelector="@android:color/transparent"
+        android:scrollbars="vertical"
+        android:layout_weight="1"></ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0">
+        <Button
+            android:id="@+id/btn_listview_add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="listvie动态增加"/>
+        <Button
+            android:id="@+id/btn_listview_remove"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="listvie动态删除"/>
+    </LinearLayout>
+
+
+</LinearLayout>
