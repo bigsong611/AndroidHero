@@ -20,4 +20,16 @@ public class MainActivity extends AppCompatActivity {
     public void onClick_btnViewHolder(View view) {
         startActivity(new Intent(MainActivity.this, ViewHolderTest.class));
     }
+
+    public void onClick_btnFlexListView(View view) {
+        startActivity(new Intent(MainActivity.this, FlexibleListViewActivity.class));
+    }
+
+    public void onClick_btnScrollHideTest(View view) {
+        startActivity(new Intent(MainActivity.this, ScrollHideListViewActivity.class));
+    }
+
+    public void onClick_btnChatItemListView(View view) {
+        startActivity(new Intent(MainActivity.this, ChatItemListViewActivity.class));
+    }
 }

@@ -17,6 +17,9 @@
         </activity>
         <activity android:name=".chapter2.MainActivity" />
         <activity android:name=".chapter2.ViewHolderTest" />
+        <activity android:name=".chapter2.FlexibleListViewActivity" />
+        <activity android:name=".chapter2.ScrollHideListViewActivity" />
+        <activity android:name=".chapter2.ChatItemListViewActivity"/>
     </application>
 
 </manifest>

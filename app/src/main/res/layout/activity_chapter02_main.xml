@@ -15,5 +15,20 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Notify Test" />
+        android:text="FlexibleListView Test"
+        android:onClick="onClick_btnFlexListView"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ScrollHide Test"
+        android:onClick="onClick_btnScrollHideTest"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ChatItemListView"
+        android:onClick="onClick_btnChatItemListView"/>
+
+
 </LinearLayout>
